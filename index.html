@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/sidebar.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <title>Youtube.com</title>
+</head>
+<body>
+  <header class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="images/icons/hamburger-menu.svg">
+      <div class="youtube-icon-container">
+        <img class="youtube-logo" src="images/icons/youtube-logo.svg">
+        <div class="tooltip">
+          Home Page di Youtube
+        </div>
+      </div>
+    </div>
+
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="images/icons/search.svg">  
+        <div class="tooltip">
+          Search
+        </div>
+      </button>
+      <button class="voice-button">
+        <img class="voice-icon" src="images/icons/voice-search-icon.svg"> 
+        <div class="tooltip">
+          Search with your voice
+        </div>
+      </button>
+    </div>
+
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="images/icons/upload.svg">
+        <div class="tooltip">
+          Create
+        </div>
+      </div>
+      
+      <div class="youtube-apps-container">
+        <img class="youtube-apps-icon" src="images/icons/youtube-apps.svg">
+        <div class="tooltip">
+          Youtube apps
+        </div>
+      </div>
+
+      <div class="notifications-icon-container-and-tooltip">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="images/icons/notifications.svg">
+          <div class="notifications-count">
+            3
+          </div>
+        </div>
+        <div class="tooltip">
+          Notifications
+        </div>
+      </div>
+      
+      <div class="current-user-container">
+        <img class="current-user-picture" src="images/channel-pictures/my-channel.jpeg">
+        <div class="tooltip">
+          My Channel
+        </div>
+      </div>
+    </div>
+  </header>
+     
+  <nav class="sidebar">
+    <div class="sidebar-link">
+      <img src="images/icons/home.svg">
+      <div>
+        Home
+      </div>
+    </div>
+    <div class="sidebar-link">
+      <img src="images/icons/explore.svg">
+      <div>
+        Explore
+      </div>
+    </div>
+    <div class="sidebar-link">
+      <img src="images/icons/subscriptions.svg">
+      <div>
+        Subscritions
+      </div>
+    </div>
+    <div class="sidebar-link">
+      <img src="images/icons/originals.svg">
+      <div>
+        Originals
+      </div>
+    </div>
+    <div class="sidebar-link">
+      <img src="images/icons/youtube-music.svg">
+      <div>
+        Youtube Music
+      </div>
+    </div>
+    <div class="sidebar-link">
+      <img src="images/icons/library.svg">
+      <div>
+        Library
+      </div>
+    </div>
+  </nav>
+  
+  <main>
+    <section class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/thumbnails/thumbnail-1.webp">
+          <div class="video-time">
+            14:20
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/channel-pictures/channel-1.jpeg">
+            <div class="tooltip">
+              <div class="tooltip-container">
+                <img class="tooltip-container-picture" src="images/channel-pictures/channel-1.jpeg">
+                <div class="tooltip-container-info">
+                  <p class="author-name">Marques Brownlee</p>
+                  <p class="author-stats">20M subscibers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-stats">
+              3.4M views &#183 6 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/thumbnails/coder-foundry.jpg">
+          <div class="video-time">
+            25:12
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/channel-pictures/coder-foundry.jpg">
+            <div class="tooltip">
+              <div class="tooltip-container">
+                <img class="tooltip-container-picture" src="images/channel-pictures/coder-foundry.jpg">
+                <div class="tooltip-container-info">
+                  <p class="author-name">Coder Foundry</p>
+                  <p class="author-stats">50k subscibers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Web developer portfolio reviews
+            </p>
+            <p class="video-author">
+              Coder Foundry
+            </p>
+            <p class="video-stats">
+              530k views &#183 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/thumbnails/chef.jpg">
+          <div class="video-time">
+            7:40
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/channel-pictures/chef.jpg">
+            <div class="tooltip">
+              <div class="tooltip-container">
+                <img class="tooltip-container-picture" src="images/channel-pictures/chef.jpg">
+                <div class="tooltip-container-info">
+                  <p class="author-name">Chef Erik</p>
+                  <p class="author-stats">1M subscibers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              New recipe!
+            </p>
+            <p class="video-author">
+              Chef Erik
+            </p>
+            <p class="video-stats">
+              2M views &#183 2 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/thumbnails/unreal.jpg">
+          <div class="video-time">
+            30:23
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/channel-pictures/fireShip.jpg">
+            <div class="tooltip">
+              <div class="tooltip-container">
+                <img class="tooltip-container-picture" src="images/channel-pictures/fireShip.jpg">
+                <div class="tooltip-container-info">
+                  <p class="author-name">FireShip</p>
+                  <p class="author-stats">8M subscibers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Unreal 5.2 is incredible!
+            </p>
+            <p class="video-author">
+              FireShip
+            </p>
+            <p class="video-stats">
+              4M views &#183 2 weeks ago
+            </p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/thumbnails/simulation.jpg">
+          <div class="video-time">
+            3:20
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/channel-pictures/simulation.jpg">
+            <div class="tooltip">
+              <div class="tooltip-container">
+                <img class="tooltip-container-picture" src="images/channel-pictures/simulation.jpg">
+                <div class="tooltip-container-info">
+                  <p class="author-name">SimulatorMan</p>
+                  <p class="author-stats">20k subscibers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Heat echanger simulation
+            </p>
+            <p class="video-author">
+              SimulatorMan
+            </p>
+            <p class="video-stats">
+              2k views &#183 8 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/thumbnails/roast.jpg">
+          <div class="video-time">
+            16:01
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/channel-pictures/Hyperplexed.jpg">
+            <div class="tooltip">
+              <div class="tooltip-container">
+                <img class="tooltip-container-picture" src="images/channel-pictures/Hyperplexed.jpg">
+                <div class="tooltip-container-info">
+                  <p class="author-name">Hyperplexed</p>
+                  <p class="author-stats">3M subscibers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Roasting webSites
+            </p>
+            <p class="video-author">
+              Hyperplexed
+            </p>
+            <p class="video-stats">
+              16M views &#183 1 week ago
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
